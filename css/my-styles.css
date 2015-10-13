@@ -25,8 +25,8 @@ header span {
 
 header nav {
     float: right;
-    margin-top: 1.4%;
-    width: 20%;
+    margin-top: 23px;
+    width: 330px;
 }
 
 header a {
@@ -35,21 +35,107 @@ header a {
 }
 
 header nav a {
-    margin: 2%;
+    margin-left: 12px;
 }
 
 /* HOME */
 
-.home {
-    background-image: url(../img/ATLAS-Institute-AK_04-REV-FLAT-1680x1120.jpg);
+#home {
+    background-image: url(../img/Home.jpg);
     background-size: cover;
     background-position: center;
-    margin-top: -1.2%;
-    text-align: center;
-    padding: 20% 0;
+    padding: 330px 0;
     color: #fff;
     margin-top: 0%;
 }
+
+#home h2 {
+    font-weight: 400;
+    font-size: 2.5em;
+    width: 60%;
+    margin-top: -1.6%;
+}
+
+#home h2:first-child {
+    margin-left: 38%;
+}
+
+#home h2:nth-child(2) {
+    margin-left: 36.5%;
+}
+
+#home h2:nth-child(3) {
+    margin-left: 35%;
+}
+
+#home p {
+    font-weight: 100;
+    font-size: 1.055em;
+    margin-left: 33%;
+    width: 1015px;
+}
+
+#home a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 30px 15px 30px;
+    float: right;
+    margin-right: 156px;
+    text-transform: uppercase;
+}
+
+/* EXHIBITIONS */
+
+#exhibit {
+    margin-top: 100px;
+}
+
+#exhibit figure {
+    width: 30%;
+    height: 30%;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 0.9em;
+    float: left;
+}
+
+#exhibit img {
+    width: 100%;
+}
+
+#exhibit div {
+    width: 61%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 7px;
+    text-align: justify;
+}
+
+#exhibit h3:first-child {
+    font-size: 2em;
+    margin: 0;
+    margin-top: 7px;
+    border-top: 5px solid #ccc;
+    width: 306px;
+}
+
+#exhibit h4 {
+    text-transform: uppercase;
+    margin-bottom: -10px;
+    margin-top: 40px;
+}
+
+#exhibit p:nth-last-child(2), #exhibit p:last-child {
+    font-weight: 700;
+}
+
+#exhibit p:last-child {
+    font-style: italic;
+    letter-spacing: 0.04em;
+    margin-top: 67px;
+}
+
 
     
     
