@@ -9,6 +9,15 @@ body {
     clear: both;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #00E5EE;
+}
+
 /* HEADER */
 
 header h1 {
@@ -27,11 +36,6 @@ header nav {
     float: right;
     margin-top: 23px;
     width: 330px;
-}
-
-header a {
-    text-decoration: none;
-    color: black;
 }
 
 header nav a {
@@ -104,10 +108,10 @@ header nav a {
     width: 100%;
 }
 
-#exhibit div {
+#exhibit-info {
     width: 61%;
     float: left;
-    margin-left: 50px;
+    margin-left: 45px;
     margin-top: 7px;
     text-align: justify;
 }
@@ -116,25 +120,75 @@ header nav a {
     font-size: 2em;
     margin: 0;
     margin-top: 7px;
-    border-top: 5px solid #ccc;
+    border-top: 5px solid #00E5EE;
     width: 306px;
+}
+
+#exhibit-artists {
+    height: 95px;
+    margin-top: 40px;
 }
 
 #exhibit h4 {
     text-transform: uppercase;
-    margin-bottom: -10px;
-    margin-top: 40px;
+    margin: 0;
 }
 
-#exhibit p:nth-last-child(2), #exhibit p:last-child {
+#exhibit-artists-list {
+    margin: 0;
+}
+
+#exhibit-artists-list, #exhibit-location {
     font-weight: 700;
 }
 
-#exhibit p:last-child {
+#exhibit-location {
     font-style: italic;
     letter-spacing: 0.04em;
-    margin-top: 67px;
 }
+
+/* ARTISTS */
+
+#artists {
+    margin-top: 100px;
+}
+
+#artists-header h3 {
+    clear: both;
+    text-transform: uppercase;
+    width: 205px;
+    border-bottom: 5px solid #00E5EE;
+}
+
+#artists article {
+    float: left;
+    width: 23.196%;
+    margin: 40px 15px 0 15px;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 0 25px 0 25px;
+}
+
+#artists figure {
+    width: 100%;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 0.85em;
+    margin: 0;
+}
+    
+#artists img {
+    width: 100%;
+    height: 255px;
+}
+
+#artists-profile h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
 
 
     
