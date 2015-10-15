@@ -7,6 +7,8 @@
     <meta charset="utf-8" />
     <!-- CSS-FONT LINK -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:700,400,100,300' rel='stylesheet' type='text/css'>
+    <!-- ICON LINK -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
     <!-- MY-STYLE LINK -->
     <link href="css/my-styles.css" rel="stylesheet" />
 
@@ -16,7 +18,7 @@
 
     <!-- HEADER START -->
     <header id="main-header" class="clearfix">
-        <a href="#home"><h1>The Contempor<span>a</span>ry Austin</h1></a>
+        <a href="#home-title"><h1>The Contempor<span>a</span>ry Austin</h1></a>
         <nav id="main-nav">
             <a href="#about-title">About</a>
             <a href="#exhibit-title">Exhibitions</a>
@@ -26,6 +28,8 @@
         </nav>
     </header>
     <!-- HEADER END -->
+    
+    <div id="home-title" class="filler"> </div>
 
     <!-- HOME START -->
     <section id="home">
@@ -36,12 +40,14 @@
         <a href="#about">welcome</a>
     </section>
     <!-- HOME END -->
+    
 
     <!-- EXHIBITIONS START -->
     <section id="exhibit" class="clearfix">
         <!-- EXHIBITION HEADER START -->
         <header>
-            <p id="exhibit-title" class="section-title">EXHIBITIONS</p>
+            <div id="exhibit-title" class="filler"> </div>
+            <p class="section-title">EXHIBITIONS</p>
         </header>
         <figure>
             <img src="img/Exhibitions.jpg" alt="Sofía Táboas, Floral Start at a Circular Time I" />
@@ -65,9 +71,11 @@
 
     <!-- ARTISTS START -->
     <section id="artists" class="clearfix">
+        
         <!-- ARTISTS HEADER START -->
         <header id="artists-header">
-            <p id="artists-title" class="section-title">ARTISTS</p>
+            <div id="artists-title" class="filler"> </div>
+            <p class="section-title">ARTISTS</p>
             <h3>current & upcoming</h3>
         </header>
         <!-- ARTISTS HEADER END -->
@@ -127,29 +135,33 @@
 
     <!-- EVENTS START -->
     <section id="events" class="clearfix">
+        
         <!-- EVENTS HEADER START -->
         <header>
-            <p id="events-title" class="section-title">events</p>
+            <div id="events-title" class="filler"> </div>
+            <p class="section-title">events</p>
             <h3>upcoming events</h3>
         </header>
         <!-- EVENTS HEADER END -->
 
         <!-- EVENTS INFO START -->
-        <section id="events-info">
+        <section id="events-info" class="clearfix">
 
             <!-- WARHOL EVENT START -->
-            <article>
+            <article id="warhol">
                 <img src="img/warhol-events-horiz.jpg" alt="Andy Warhol Portrait" />
-                <h3>GREEN SCREEN FILM SERIES: WARHOL’S SLEEP</h3>
-                <p>Gates open at 6:30P, film at 7:15P, gates close at 1A. Reservations recommended; please check back for details.</p>
+                <h4>GREEN SCREEN FILM SERIES: WARHOL’S <span id="sleep">SLEEP</span></h4>
+                <h5><i class="material-icons">schedule</i> 6:30-11:59p, Oct 30, 2015 <i class="material-icons">place</i>Laguna Gloria</h5>
+                <p>Reservations recommended; please check back for details.</p>
                 <p>Sleepwalk with Andy Warhol during a screening of the artist’s dreamy durational film Sleep, consisting of five hours and twenty-one minutes of Warhol’s friend John Giorno sleeping, projected in 16 mm (1963, 321 min., silent, black and white).</p>
                 <p>Programmed by Scott Stark for Experimental Response Cinema. Green Screen Film Series: Warhol’s Sleep is presented in collaboration with Experimental Response Cinema and in partnership with the Visual Arts Center.</p>
             </article>
             <!-- WARHOL EVENT END -->
 
-            <article>
+            <article id="dolce-vita">
                 <img src="img/la-dolce-vita.jpg" alt="La Dolce Vita Event Photo" />
-                <h3>LA DOLCE VITA</h3>
+                <h4>LA DOLCE VITA</h4>
+                <h5><i class="material-icons">schedule</i> 7—10p, Oct 15, 2015 <i class="material-icons">place</i>Laguna Gloria</h5>
                 <p>Held on the beautiful grounds of Laguna Gloria, La Dolce Vita Food and Wine Festival for Art Education showcases the culinary achievements of the best chefs and winemakers in Central Texas. La Dolce Vita is one of the city’s most anticipated fall events, with all proceeds benefiting The Contemporary Austin’s innovative art education programs that serve thousands of schoolchildren, families, and adults each year.</p>
                 <p>For questions about La Dolce Vita, please contact Blythe Bailey at <a href="mailto:bbailey@thecontemporaryaustin.org">bbailey@thecontemporaryaustin.org</a> or 512 453 5312 x 255.</p>
             </article>

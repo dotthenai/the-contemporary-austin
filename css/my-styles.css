@@ -1,7 +1,10 @@
+/* ====== ALL PAGE CODE ====== 
+   =========================== */
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    margin: 0;
+    margin: 0; 
 }
 
 .clearfix:after {
@@ -19,6 +22,10 @@ a:hover {
     color: #00E5EE;
 }
 
+#exhibit, #artists, #events {
+    margin-top: 35px;
+}
+
 .section-title {
     font-weight: 500;
     letter-spacing: -0.05em;
@@ -26,7 +33,15 @@ a:hover {
     font-size: 1.5em;
 }
 
-/* ====== HEADER ====== */
+.filler {
+    height: 65px;
+    background-color: #fff;
+    width: 100%;
+    content: "";
+}
+
+/* ====== HEADER ====== 
+   ==================== */
 
 #main-header {
     position: fixed;
@@ -58,7 +73,8 @@ a:hover {
     margin-left: 12px;
 }
 
-/* ====== HOME ====== */
+/* ====== HOME ====== 
+   ================== */
 
 #home {
     background-image: url(../img/Home.jpg);
@@ -105,15 +121,8 @@ a:hover {
     text-transform: uppercase;
 }
 
-/* ======= EXHIBITIONS ====== */
-
-#exhibit {
-    margin-top: 100px;
-}
-
-#exhibit h1 {
-    clear: both;
-}
+/* ======= EXHIBITIONS ====== 
+   ========================== */
 
 #exhibit figure {
     width: 30%;
@@ -167,11 +176,8 @@ a:hover {
     letter-spacing: 0.04em;
 }
 
-/* ====== ARTISTS ====== */
-
-#artists {
-    margin-top: 100px;
-}
+/* ====== ARTISTS ====== 
+   ===================== */
     
 #artists-header h3 {
     clear: both;
@@ -207,19 +213,50 @@ a:hover {
     margin-top: 40px;
 }
 
-/* ====== EVENTS ====== */
+/* ====== EVENTS ====== 
+   ==================== */
+
+#events h3 {
+    text-transform: uppercase;
+    border-bottom: 5px solid #00E5EE;
+    width: 174px;
+}
+
+#events-info {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#sleep {
+    font-style: italic;
+}
 
 #events-info article {
     width: 40%;
     float: left;
+    margin: 30px;
+    padding: 40px;
+    height: 670px;
 }
 
 #events-info img {
     width: 100%;
+    border-bottom: 5px solid #00E5EE;
 }
 
+.material-icons {
+    color: #00E5EE;
+    margin: 0;
+    padding: 0;
+}
 
+#warhol p:nth-child(4) {
+    font-style: italic;
+}
 
+#warhol p:last-child, #dolce-vita p:last-child {
+    font-weight: 600;
+}
     
     
     
