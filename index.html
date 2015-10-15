@@ -5,8 +5,6 @@
 
     <title>The Contemporary Austin</title>
     <meta charset="utf-8" />
-    <!-- CSS-RESET LINK -->
-    <link href="css/css-reset.css" rel="stylesheet" />
     <!-- CSS-FONT LINK -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:700,400,100,300' rel='stylesheet' type='text/css'>
     <!-- MY-STYLE LINK -->
@@ -17,13 +15,13 @@
 <body>
 
     <!-- HEADER START -->
-    <header class="clearfix">
+    <header id="main-header" class="clearfix">
         <a href="#home"><h1>The Contempor<span>a</span>ry Austin</h1></a>
-        <nav>
-            <a href="#">About</a>
-            <a href="#exhibit">Exhibitions</a>
-            <a href="#artists">Artists</a>
-            <a href="#">Events</a>
+        <nav id="main-nav">
+            <a href="#about-title">About</a>
+            <a href="#exhibit-title">Exhibitions</a>
+            <a href="#artists-title">Artists</a>
+            <a href="#events-title">Events</a>
             <a href="#">Visit</a>
         </nav>
     </header>
@@ -41,6 +39,10 @@
 
     <!-- EXHIBITIONS START -->
     <section id="exhibit" class="clearfix">
+        <!-- EXHIBITION HEADER START -->
+        <header>
+            <p id="exhibit-title" class="section-title">EXHIBITIONS</p>
+        </header>
         <figure>
             <img src="img/Exhibitions.jpg" alt="Sofía Táboas, Floral Start at a Circular Time I" />
             <figcaption>
@@ -60,68 +62,105 @@
         </div>
     </section>
     <!-- EXHIBITIONS END -->
-    
+
     <!-- ARTISTS START -->
     <section id="artists" class="clearfix">
         <!-- ARTISTS HEADER START -->
         <header id="artists-header">
-            <h1>ARTISTS</h1>
+            <p id="artists-title" class="section-title">ARTISTS</p>
             <h3>current & upcoming</h3>
         </header>
         <!-- ARTISTS HEADER END -->
-        
+
         <!-- ARTISTS PROFILE START -->
         <section id="artists-profile">
-            
+
             <!-- DO HO SUH START -->
             <article class="clearfix">
                 <figure>
-                    <img src="img/do-ho-suh.jpg" alt="Do Ho Suh. Installation view, Home within Home"/>
+                    <img src="img/do-ho-suh.jpg" alt="Do Ho Suh. Installation view, Home within Home" />
                     <figcaption>Installation view, Home within Home, Leeum, Samsung Museum of Art, Seoul, 2012.</figcaption>
                 </figure>
                 <a href="https://en.wikipedia.org/wiki/Do-ho_Suh" type="text/html" media="all"><h3>do ho suh</h3></a>
-                <p>A South Korean artist, born 1962 in Seoul. He splits his time between New York City, London, and Seoul. He received a BFA in painting from the Rhode Island School of Design and an MFA in sculpture from Yale University.</p>  
+                <p>A South Korean artist, born 1962 in Seoul. He splits his time between New York City, London, and Seoul. He received a BFA in painting from the Rhode Island School of Design and an MFA in sculpture from Yale University.</p>
             </article>
             <!-- DO HO SUH END -->
-            
+
             <!-- JOHN GRADE START -->
             <article class="clearfix">
                 <figure>
-                    <img src="img/john-grade.jpg" alt="John Grade. Wawoma Detail."/>
+                    <img src="img/john-grade.jpg" alt="John Grade. Wawoma Detail." />
                     <figcaption>Wawona (detail), 2012. Wood salvaged from historic Wawona schooner and steel. 64 x 9 x 10 feet.</figcaption>
                 </figure>
                 <a href="http://www.johngrade.com/#/" type="text/html" media="all"><h3>john grade</h3></a>
-                <p>An American artist, born 1970 in Minneapolis, Minnesota. He lives and works in Seattle. Grade creates large-scale sculptures that are exhibited internationally in museums, galleries, and outdoors in nature.</p>  
+                <p>An American artist, born 1970 in Minneapolis, Minnesota. He lives and works in Seattle. Grade creates large-scale sculptures that are exhibited internationally in museums, galleries, and outdoors in nature.</p>
             </article>
             <!-- JOHN GRADE END -->
-            
+
             <!-- LIAM GILLICK START -->
             <article class="clearfix">
                 <figure>
-                    <img src="img/Liam-Gillick.jpg" alt="Do Ho Suh. Installation view, Home within Home"/>
+                    <img src="img/Liam-Gillick.jpg" alt="Do Ho Suh. Installation view, Home within Home" />
                     <figcaption>Linked Projection, 2010. Centene Plaza, St. Louis. Courtesy the artist and Casey Kaplan.</figcaption>
                 </figure>
                 <a href="http://www.liamgillick.info/" type="text/html" media="all"><h3>liam gillick</h3></a>
-                <p>A British artist, born 1964 in Aylesbury, UK. He currently lives and works in New York. He is perhaps best known for a traveling retrospective titled Three Perspectives and a Short Scenario, shown at the Kunsthalle in Zurich.</p>  
+                <p>A British artist, born 1964 in Aylesbury, UK. He currently lives and works in New York. He is perhaps best known for a traveling retrospective titled Three Perspectives and a Short Scenario, shown at the Kunsthalle in Zurich.</p>
             </article>
             <!-- LIAM GILLICK END -->
-            
+
             <!-- MARIANNE VITALE START -->
             <article class="clearfix">
                 <figure>
-                    <img src="img/Marianne-vitale.jpg" alt="Marianne Vitale. Common Crossings"/>
+                    <img src="img/Marianne-vitale.jpg" alt="Marianne Vitale. Common Crossings" />
                     <figcaption>Common Crossings, 2013. Steel, nine pieces, approximately 120 x 24 x 8 inches each.</figcaption>
                 </figure>
                 <a href="http://www.mariannevitale.com/" type="text/html" media="all"><h3>MARIANNE VITALE</h3></a>
-                <p>An American artist, born 1973 in East Rockaway, New York. She currently lives and works in New York. Her work has been seen in group exhibitions including the 2010 Whitney Biennial and in solo exhibitions including the Sculpture Center in New York (2009).</p>  
+                <p>An American artist, born 1973 in East Rockaway, New York. She currently lives and works in New York. Her work has been seen in group exhibitions including the 2010 Whitney Biennial and in solo exhibitions including the Sculpture Center in New York (2009).</p>
             </article>
             <!-- MARIANNE VITALE END -->
-            
+
         </section>
         <!-- ARTISTS PROFILE END -->
-        
+
     </section>
     <!-- ARTISTS END -->
+
+    <!-- EVENTS START -->
+    <section id="events" class="clearfix">
+        <!-- EVENTS HEADER START -->
+        <header>
+            <p id="events-title" class="section-title">events</p>
+            <h3>upcoming events</h3>
+        </header>
+        <!-- EVENTS HEADER END -->
+
+        <!-- EVENTS INFO START -->
+        <section id="events-info">
+
+            <!-- WARHOL EVENT START -->
+            <article>
+                <img src="img/warhol-events-horiz.jpg" alt="Andy Warhol Portrait" />
+                <h3>GREEN SCREEN FILM SERIES: WARHOL’S SLEEP</h3>
+                <p>Gates open at 6:30P, film at 7:15P, gates close at 1A. Reservations recommended; please check back for details.</p>
+                <p>Sleepwalk with Andy Warhol during a screening of the artist’s dreamy durational film Sleep, consisting of five hours and twenty-one minutes of Warhol’s friend John Giorno sleeping, projected in 16 mm (1963, 321 min., silent, black and white).</p>
+                <p>Programmed by Scott Stark for Experimental Response Cinema. Green Screen Film Series: Warhol’s Sleep is presented in collaboration with Experimental Response Cinema and in partnership with the Visual Arts Center.</p>
+            </article>
+            <!-- WARHOL EVENT END -->
+
+            <article>
+                <img src="img/la-dolce-vita.jpg" alt="La Dolce Vita Event Photo" />
+                <h3>LA DOLCE VITA</h3>
+                <p>Held on the beautiful grounds of Laguna Gloria, La Dolce Vita Food and Wine Festival for Art Education showcases the culinary achievements of the best chefs and winemakers in Central Texas. La Dolce Vita is one of the city’s most anticipated fall events, with all proceeds benefiting The Contemporary Austin’s innovative art education programs that serve thousands of schoolchildren, families, and adults each year.</p>
+                <p>For questions about La Dolce Vita, please contact Blythe Bailey at <a href="mailto:bbailey@thecontemporaryaustin.org">bbailey@thecontemporaryaustin.org</a> or 512 453 5312 x 255.</p>
+            </article>
+            <!-- EVENTS INFO END -->
+
+        </section>
+        <!-- EVENTS INFO END -->
+
+
+    </section>
+    <!-- EVENTS START -->
 
 
 
