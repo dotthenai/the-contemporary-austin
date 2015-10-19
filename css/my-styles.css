@@ -57,11 +57,11 @@ body, #exhibit h3:first-child, #exhibit h4, #exhibit-artists-list, #artists figu
     border-bottom: 5px solid #00E5EE;
 }
 
-#visit-connect h4, #visit, #home a, #home {
+#visit-connect h4, #visit, #home a, #home, #visit-location a {
     color: #fff;
 }
 
-#jones-center p, #laguna-gloria p, .materials-icons, #main-header span, a:hover {
+#jones-center p, #laguna-gloria p, .materials-icons, #main-header span, a:hover, #home a:hover, #visit-location a:hover {
     color: #00E5EE;
 }
 
@@ -302,13 +302,13 @@ body, #exhibit h3:first-child, #exhibit h4, #exhibit-artists-list, #artists figu
 
 .location {
     font-size: 1.3em;
-}
+}  
 
-#visit-location h4:nth-child(2) {
+#visit-location a h4:first-child {
     margin-bottom: 0;
 }
 
-#visit-location h4:nth-child(3) {
+#visit-location a h4:nth-child(2) {
     margin-top: 0;
 }
 
