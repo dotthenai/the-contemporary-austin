@@ -58,6 +58,7 @@ a:hover {
     float: left;
     text-transform: uppercase;
     font-size: 1.5em;
+    padding-left: 20px;
 }
 
 #main-header span {
@@ -68,6 +69,7 @@ a:hover {
     float: right;
     margin-top: 23px;
     width: 269px;
+    padding-right: 20px;
 }
 
 #main-header nav a {
@@ -83,7 +85,7 @@ a:hover {
     background-position: center;
     padding: 330px 0;
     color: #fff;
-    margin-top: 0%;
+    margin-top: 0;
 }
 
 #home h2 {
@@ -124,6 +126,9 @@ a:hover {
 
 /* ======= EXHIBITIONS ====== 
    ========================== */
+#exhibit {
+    padding: 0 20px;
+}
 
 #exhibit figure {
     width: 30%;
@@ -179,6 +184,10 @@ a:hover {
 
 /* ====== ARTISTS ====== 
    ===================== */
+
+#artists {
+    padding: 0 20px;
+}
     
 #artists-header h3 {
     clear: both;
@@ -216,6 +225,9 @@ a:hover {
 
 /* ====== EVENTS ====== 
    ==================== */
+#events {
+    padding: 0 20px;
+}
 
 #events h3 {
     text-transform: uppercase;
@@ -256,7 +268,7 @@ a:hover {
 }
 
 #warhol p:last-child, #dolce-vita p:last-child {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 /* ====== VISIT ======
@@ -272,6 +284,7 @@ a:hover {
     background-color: #00E5EE;
     color: #fff;
     font-weight: 100;
+    padding: 0 20px;
 }
 
 #visit header {
@@ -285,7 +298,7 @@ a:hover {
 }
 
 #jones-center, #laguna-gloria {
-    width: 34%;
+    width: 33%;
     float: left;
     padding: 0 80px;
 }
@@ -336,7 +349,7 @@ a.socialIcons {
 }
 
 a.socialIcons:hover {
-opacity: 0.4;
+    opacity: 0.4;
 }
 
 

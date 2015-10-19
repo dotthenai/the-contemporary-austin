@@ -1,0 +1,51 @@
+body, #exhibit h3:first-child, #exhibit h4, #exhibit-artists-list, #artists figure, .material-icons {
+    margin: 0 !important;  
+}
+
+#artists figure, #artists article, #exhibit-info, #exhibit figure {
+    text-align: justify !important;
+}
+
+#main-header, #exhibit img, #artists figure, #artists img, #events-info img, .filler {
+    width: 100% !important;
+}
+
+#visit-connect h4, #visit-location h4, #events h3, #artists-profile h3, #artists-header h3, #exhibit h4, #home a, #main-header h1, .section-title {
+    text-transform: uppercase !important;
+}
+
+#main-header, #artists-header h3, #events h3, #events-info img, #visit-link {
+    border-bottom: 5px solid #00E5EE !important;
+}
+
+#visit-connect h4, #visit, #home a {
+    color: #fff !important;
+}
+
+#jones-center p, #laguna-gloria p, .materials-icons, #main-header span, a:hover {
+    color: #00E5EE !important;
+}
+
+#main-header h1, #exhibit figure, #exhibit-info, #artists article, #events-info article, #jones-center, #laguna-gloria {
+    float: left !important;
+}
+
+#visit-location, #events-info  {
+    margin: 0 auto !important;
+}
+
+#home a, #main-header nav {
+    float: right !important;
+}
+
+#visit-location h4, #visit-connect h4, #home h2, .section-title, #main-header h1 {
+    font-weight: 400 !important;
+}
+
+#home p, #visit {
+    font-weight: 100 !important;
+}
+
+#warhol p, #dolce-vita p:last-child, #exhibit-artists-list, #exhibit-location {
+    font-weight: 700 !important;
+}
