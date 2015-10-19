@@ -18,7 +18,7 @@ a {
     color: black;
 }
 
-#exhibit, #artists, #events {
+#about, #exhibit, #artists, #events {
     margin-top: 35px;
 }
 
@@ -36,24 +36,21 @@ a {
 /* ====== SHARED CODE ======
    ========================= */
 
-body, #exhibit h3:first-child, #exhibit h4, #exhibit-artists-list, #artists figure, .material-icons {
+body, #exhibit h3:first-child, #exhibit h4, #exhibit-artists-list, #artists figure, .material-icons, #artists-header h3 {
     margin: 0;  
 }
 
-#exhibit, #artists, #events, #visit {
-    padding: 0 20px;
+
+#visit-location, #events-info, #visit-connect h4  {
+    margin: 0 auto;
 }
 
-#artists figure, #artists article, #exhibit-info, #exhibit figure {
-    text-align: justify;
+#about, #exhibit, #artists, #events, #visit {
+    padding: 0 20px;
 }
 
 #main-header, #exhibit img, #artists figure, #artists img, #events-info img, .filler {
     width: 100%;
-}
-
-#visit-connect h4, #visit-location h4, #events h3, #artists-profile h3, #artists-header h3, #exhibit h4, #home a, #main-header h1, .section-title {
-    text-transform: uppercase;
 }
 
 #main-header, #artists-header h3, #events h3, #events-info img, #visit-link {
@@ -68,12 +65,8 @@ body, #exhibit h3:first-child, #exhibit h4, #exhibit-artists-list, #artists figu
     color: #00E5EE;
 }
 
-#main-header h1, #exhibit figure, #exhibit-info, #artists article, #events-info article, #jones-center, #laguna-gloria {
+#about-info, #about video, #main-header h1, #exhibit figure, #exhibit-info, #artists article, #events-info article, #jones-center, #laguna-gloria {
     float: left;
-}
-
-#visit-location, #events-info, #visit-connect h4  {
-    margin: 0 auto;
 }
 
 #home a, #main-header nav {
@@ -88,8 +81,16 @@ body, #exhibit h3:first-child, #exhibit h4, #exhibit-artists-list, #artists figu
     font-weight: 100;
 }
 
-#warhol p, #dolce-vita p:last-child, #exhibit-artists-list, #exhibit-location {
+#exhibit-location, #exhibit-artists-list, #warhol p, #dolce-vita p:last-child {
     font-weight: 700;
+}
+
+#about h3, #visit-connect h4, #visit-location h4, #events h3, #artists-profile h3, #artists-header h3, #exhibit h4, #home a, #main-header h1, .section-title {
+    text-transform: uppercase;
+}
+
+#artists figure, #artists article, #exhibit-info, #exhibit figure {
+    text-align: justify;
 }
 
 /* ====== HEADER ====== 
@@ -109,7 +110,7 @@ body, #exhibit h3:first-child, #exhibit h4, #exhibit-artists-list, #artists figu
 
 #main-header nav {
     margin-top: 23px;
-    width: 269px;
+    width: 323px;
     padding-right: 20px;
 }
 
@@ -159,6 +160,25 @@ body, #exhibit h3:first-child, #exhibit h4, #exhibit-artists-list, #artists figu
     margin-right: 156px;
 }
 
+/* ====== ABOUT ======
+   =================== */
+
+#about h3:first-child {
+    font-size: 2em;
+    border-top: 5px solid #00E5EE;
+    width: 331px;
+    margin-top: 47px;
+}
+    
+#about video {
+    width: 70%;
+    margin: 46px 90px 0 40px;  
+}
+
+#about-info {
+    width: 16%;
+}
+
 /* ======= EXHIBITIONS ====== 
    ========================== */
 
@@ -167,12 +187,13 @@ body, #exhibit h3:first-child, #exhibit h4, #exhibit-artists-list, #artists figu
     height: 30%;
     font-weight: 300;
     font-size: 0.9em;
+    margin-top: 46px;
 }
 
 #exhibit-info {
     width: 61%;
     margin-left: 45px;
-    margin-top: 7px;
+    margin-top: 40px;
 }
 
 #exhibit h3:first-child {
@@ -183,7 +204,7 @@ body, #exhibit h3:first-child, #exhibit h4, #exhibit-artists-list, #artists figu
 }
 
 #exhibit-artists {
-    height: 95px;
+    height: 66px;
     margin-top: 40px;
 }
 
@@ -198,6 +219,7 @@ body, #exhibit h3:first-child, #exhibit h4, #exhibit-artists-list, #artists figu
 #artists-header h3 {
     clear: both;
     width: 207px;
+    margin-bottom: 40px;
 }
 
 #artists article {
@@ -310,7 +332,7 @@ body, #exhibit h3:first-child, #exhibit h4, #exhibit-artists-list, #artists figu
 
 a.socialIcons {
     margin-right: 40px;
-    padding-top: 10%;
+    padding-top: 3%;
 }
 
 a.socialIcons:hover {
