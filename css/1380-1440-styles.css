@@ -13,7 +13,7 @@
    ==================== */
 
 #main-header nav {
-    width: 270px;
+    width: 323px;
 }
 
 /* ====== HOME ====== 
@@ -43,6 +43,18 @@
 
 #home a {
     margin-right: 95px;
+}
+
+/* ====== ABOUT ======
+   =================== */
+    
+#about video {
+    width: 60%;
+    margin: 46px 90px 0 40px;  
+}
+
+#about-info {
+    width: 23%;
 }
 
 /* ======= EXHIBITIONS ====== 
