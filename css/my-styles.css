@@ -169,14 +169,19 @@ body, #exhibit h3:first-child, #exhibit h4, #exhibit-artists-list, #artists figu
     width: 331px;
     margin-top: 47px;
 }
-    
-#about video {
-    width: 70%;
-    margin: 46px 90px 0 40px;  
+
+#video {
+    width: 30%;
+    margin: 46px 90px 0 40px;
+    float: left; 
+}
+
+#video iframe {  
+    width: 100%
 }
 
 #about-info {
-    width: 16%;
+    width:  50%;
 }
 
 /* ======= EXHIBITIONS ====== 
