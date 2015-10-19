@@ -1,9 +1,9 @@
 /* ====== ALL PAGE CODE ====== 
    =========================== */
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1366px) and (max-width: 1440px) { 
     
-    .filler {
+       .filler {
     height: 59px;
     background-color: #fff;
     content: "";
@@ -24,25 +24,25 @@
 }
 
 #home h2:first-child {
-    margin-left: 36%;
+    margin-left: 38%;
 }
 
 #home h2:nth-child(2) {
-    margin-left: 33%;
+    margin-left: 35%;
 }
 
 #home h2:nth-child(3) {
-    margin-left: 31%;
+    margin-left: 33%;
 }
 
 #home p {
-    font-size: 0.93em;
-    margin-left: 28.5%;
-    width: 850px;
+    font-size: 0.99em;
+    margin-left: 31%;
+    width: 900px;
 }
 
 #home a {
-    margin-right: 73px;
+    margin-right: 95px;
 }
 
 /* ======= EXHIBITIONS ====== 
@@ -62,7 +62,7 @@
 
 #artists article {
     width: 22%;
-    margin: 40px 15px 0 15px;
+    margin: 40px 19px 0 19px;
     padding: 0 0 0 0;
 }
     
@@ -70,7 +70,7 @@
    ==================== */
 
 #events-info article {
-    width: 36%;
+    width: 38%;
 }
 
 #warhol p:last-child, #dolce-vita p:last-child {
@@ -87,4 +87,5 @@
 #jones-center, #laguna-gloria {
     padding: 0 65px;
 }
+
 }
