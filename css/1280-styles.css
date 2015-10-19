@@ -1,6 +1,6 @@
 /* ====== ALL PAGE CODE ====== 
    =========================== */
-@media screen and (max-width: 1281px) {
+@media screen and (min-width: 1200px) and (max-width: 1380px) {
 
 /* ====== HEADER ====== 
    ==================== */
@@ -42,7 +42,7 @@
    ========================== */
 
 #exhibit-info {
-    width: 60%;
+    width: 59%;
 }
 
 #exhibit-artists {

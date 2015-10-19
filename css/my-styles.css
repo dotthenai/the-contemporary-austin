@@ -4,7 +4,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    margin: 0; 
     }
 
 
@@ -19,26 +18,87 @@ a {
     color: black;
 }
 
-a:hover {
-    color: #00E5EE;
-}
-
 #exhibit, #artists, #events {
     margin-top: 35px;
 }
 
 .section-title {
-    font-weight: 500;
     letter-spacing: -0.05em;
-    text-transform: uppercase;
     font-size: 1.5em;
 }
 
 .filler {
     height: 65px;
     background-color: #fff;
-    width: 100%;
     content: "";
+}
+
+/* ====== SHARED CODE ======
+   ========================= */
+
+body, #exhibit h3:first-child, #exhibit h4, #exhibit-artists-list, #artists figure, .material-icons {
+    margin: 0;  
+}
+
+#exhibit, #artists, #events, #visit {
+    padding: 0 20px;
+}
+
+#artists figure, #artists article, #exhibit-info, #exhibit figure {
+    text-align: justify;
+}
+
+#main-header, #exhibit img, #artists figure, #artists img, #events-info img, .filler {
+    width: 100%;
+}
+
+#visit-connect h4, #visit-location h4, #events h3, #artists-profile h3, #artists-header h3, #exhibit h4, #home a, #main-header h1, .section-title {
+    text-transform: uppercase;
+}
+
+#main-header, #artists-header h3, #events h3, #events-info img, #visit-link {
+    border-bottom: 5px solid #00E5EE;
+}
+
+#visit-connect h4, #visit, #home a, #home {
+    color: #fff;
+}
+
+#jones-center p, #laguna-gloria p, .materials-icons, #main-header span, a:hover {
+    color: #00E5EE;
+}
+
+#main-header h1, #exhibit figure, #exhibit-info, #artists article, #events-info article, #jones-center, #laguna-gloria {
+    float: left;
+}
+
+#visit-location, #events-info, #visit-connect h4  {
+    margin: 0 auto;
+}
+
+#home a, #main-header nav {
+    float: right;
+}
+
+#visit-location h4, #visit-connect h4, #home h2, .section-title, #main-header h1 {
+    font-weight: 400;
+}
+
+#home p, #visit {
+    font-weight: 100;
+}
+
+#warhol p, #dolce-vita p:last-child, #exhibit-artists-list, #exhibit-location {
+    font-weight: 700;
+}
+
+hr {
+    height: 5px;
+    width: 100px;
+    background-color: blue;
+    margin:0;
+    padding:0;
+    margin-left: -20px;
 }
 
 /* ====== HEADER ====== 
@@ -47,26 +107,16 @@ a:hover {
 #main-header {
     position: fixed;
     top: 0;
-    width: 100%;
     background-color: #fff;
-    border-bottom: 5px solid #00E5EE;
 }
 
 #main-header h1 {
-    font-weight: 500;
     letter-spacing: -0.05em;
-    float: left;
-    text-transform: uppercase;
     font-size: 1.5em;
     padding-left: 20px;
 }
 
-#main-header span {
-    color: #00E5EE;
-}
-
 #main-header nav {
-    float: right;
     margin-top: 23px;
     width: 269px;
     padding-right: 20px;
@@ -84,12 +134,10 @@ a:hover {
     background-size: cover;
     background-position: center;
     padding: 330px 0;
-    color: #fff;
     margin-top: 0;
 }
 
 #home h2 {
-    font-weight: 400;
     font-size: 2.5em;
     width: 60%;
     margin-top: -1.6%;
@@ -108,7 +156,6 @@ a:hover {
 }
 
 #home p {
-    font-weight: 100;
     font-size: 1.055em;
     margin-left: 33%;
     width: 1015px;
@@ -116,44 +163,29 @@ a:hover {
 
 #home a {
     text-decoration: none;
-    color: #fff;
     border: 1px solid #fff;
     padding: 15px 30px 15px 30px;
-    float: right;
     margin-right: 156px;
-    text-transform: uppercase;
 }
 
 /* ======= EXHIBITIONS ====== 
    ========================== */
-#exhibit {
-    padding: 0 20px;
-}
 
 #exhibit figure {
     width: 30%;
     height: 30%;
     font-weight: 300;
-    text-align: justify;
     font-size: 0.9em;
-    float: left;
-}
-
-#exhibit img {
-    width: 100%;
 }
 
 #exhibit-info {
     width: 61%;
-    float: left;
     margin-left: 45px;
     margin-top: 7px;
-    text-align: justify;
 }
 
 #exhibit h3:first-child {
     font-size: 2em;
-    margin: 0;
     margin-top: 7px;
     border-top: 5px solid #00E5EE;
     width: 308px;
@@ -164,19 +196,6 @@ a:hover {
     margin-top: 40px;
 }
 
-#exhibit h4 {
-    text-transform: uppercase;
-    margin: 0;
-}
-
-#exhibit-artists-list {
-    margin: 0;
-}
-
-#exhibit-artists-list, #exhibit-location {
-    font-weight: 700;
-}
-
 #exhibit-location {
     font-style: italic;
     letter-spacing: 0.04em;
@@ -184,54 +203,33 @@ a:hover {
 
 /* ====== ARTISTS ====== 
    ===================== */
-
-#artists {
-    padding: 0 20px;
-}
     
 #artists-header h3 {
     clear: both;
-    text-transform: uppercase;
     width: 207px;
-    border-bottom: 5px solid #00E5EE;
 }
 
 #artists article {
-    float: left;
     width: 23%;
     margin: 40px 15px 0 15px;
-    text-align: justify;
     box-sizing: border-box;
     padding: 0 25px 0 25px;
 }
 
 #artists figure {
-    width: 100%;
     font-weight: 300;
-    text-align: justify;
     font-size: 0.85em;
-    margin: 0;
-}
-    
-#artists img {
-    width: 100%;
 }
 
 #artists-profile h3 {
-    text-transform: uppercase;
     text-align: center;
     margin-top: 40px;
 }
 
 /* ====== EVENTS ====== 
    ==================== */
-#events {
-    padding: 0 20px;
-}
 
 #events h3 {
-    text-transform: uppercase;
-    border-bottom: 5px solid #00E5EE;
     width: 176px;
 }
 
@@ -241,34 +239,24 @@ a:hover {
 
 #events-info {
     width: 90%;
-    margin: 0 auto;
 }
 
 #events-info article {
     width: 40%;
-    float: left;
     margin: 30px;
     padding: 40px;
     height: 670px;
 }
 
 #events-info img {
-    width: 100%;
-    border-bottom: 5px solid #00E5EE;
 }
 
 .material-icons {
-    color: #00E5EE;
-    margin: 0;
     padding: 0;
 }
 
 #warhol p:nth-child(4) {
     font-style: italic;
-}
-
-#warhol p:last-child, #dolce-vita p:last-child {
-    font-weight: 700;
 }
 
 /* ====== VISIT ======
@@ -282,8 +270,6 @@ a:hover {
 #visit {
     background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/footer.jpg);
     background-color: #00E5EE;
-    color: #fff;
-    font-weight: 100;
     padding: 0 20px;
 }
 
@@ -293,23 +279,16 @@ a:hover {
 
 #visit-location {
     width: 60%;
-    margin: 0 auto;
     margin-top: 50px;
 }
 
 #jones-center, #laguna-gloria {
     width: 33%;
-    float: left;
     padding: 0 80px;
 }
 
 .location {
     font-size: 1.3em;
-}
-
-#visit-location h4 {
-    text-transform: uppercase;
-    font-weight: 400;
 }
 
 #visit-location h4:nth-child(2) {
@@ -321,7 +300,6 @@ a:hover {
 }
 
 #jones-center p, #laguna-gloria p {
-    color: #00E5EE;
     letter-spacing: -0.02em;
 }
 
@@ -332,14 +310,10 @@ a:hover {
 }
 
 #visit-connect h4 {
-    text-transform: uppercase;
     border: 5px solid #fff;
-    color: #fff;
     width: 10%;
     padding: 20px 10px;
-    margin: 0 auto;
     margin-bottom: 30px;
-    font-weight: 400;
     font-size: 1.3em;
 }
 

@@ -2,6 +2,10 @@ body, #exhibit h3:first-child, #exhibit h4, #exhibit-artists-list, #artists figu
     margin: 0 !important;  
 }
 
+#exhibit, #artists, #events, #visit {
+    padding: 0 20px !important;
+}
+
 #artists figure, #artists article, #exhibit-info, #exhibit figure {
     text-align: justify !important;
 }
@@ -18,7 +22,7 @@ body, #exhibit h3:first-child, #exhibit h4, #exhibit-artists-list, #artists figu
     border-bottom: 5px solid #00E5EE !important;
 }
 
-#visit-connect h4, #visit, #home a {
+#visit-connect h4, #visit, #home a, #home {
     color: #fff !important;
 }
 
@@ -30,8 +34,8 @@ body, #exhibit h3:first-child, #exhibit h4, #exhibit-artists-list, #artists figu
     float: left !important;
 }
 
-#visit-location, #events-info  {
-    margin: 0 auto !important;
+#visit-location, #events-info, #visit-connect h4  {
+    margin: 0 auto;
 }
 
 #home a, #main-header nav {
@@ -49,3 +53,13 @@ body, #exhibit h3:first-child, #exhibit h4, #exhibit-artists-list, #artists figu
 #warhol p, #dolce-vita p:last-child, #exhibit-artists-list, #exhibit-location {
     font-weight: 700 !important;
 }
+
+hr {
+    height: 5px;
+    width: 100px;
+    background-color: blue;
+    margin:0;
+    padding:0;
+    margin-left: -20px;
+}
+    
