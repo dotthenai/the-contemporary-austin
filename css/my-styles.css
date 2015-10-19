@@ -283,7 +283,6 @@ body, #exhibit h3:first-child, #exhibit h4, #exhibit-artists-list, #artists figu
 #visit {
     background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/footer.jpg);
     background-color: #00E5EE;
-    padding: 0 20px;
 }
 
 #visit header {
